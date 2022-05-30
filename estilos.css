@@ -11,11 +11,11 @@
 }
 
 
-header{   
+/*header{   
     width: 1000%;
     border-color: #FBCB0A;
     border-style: double;
-}
+}*/
 
 ul{
     list-style: none;
@@ -27,33 +27,39 @@ ul{
     background-color: #C70A80;
     padding: 25px;
     display: block;
-    min-width: 100px;
+    min-width: 230px;
     font-family: 'Sacramento', cursive;
     font-size: 50px;
     margin: 0;
-    
+    /*aca me falta que se estire toda la pantalla*/
 }
 
+/*hace que cuando nos apoyemos en el nombre se marque de un color*/
 #menu li a:hover{
     color: black;
     background-color: aliceblue;
 
 }
 
+/*hace el menu horizontal*/
+
 #menu li{
     float: left;
     text-align: center;
 }
 
+/*hace el menu desplegable*/
+
 #menu li ul{
     display: none;
 }
+
 
 #menu li:hover ul{
     display: block;
 }
 
-
+/*configura el titulo*/
 h1{
     color: #E9FDFD;
     font-style: italic;
@@ -75,6 +81,7 @@ h1{
     width: 100%;
     margin: 20px;
     
+    
 }
 .ubicacion h3{
     font-size: 35px;
@@ -86,6 +93,7 @@ h1{
     text-align: left;
     top: 150px;
     margin: 15px;
+   
 
 }
 
