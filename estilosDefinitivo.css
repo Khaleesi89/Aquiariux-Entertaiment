@@ -38,6 +38,14 @@ header h1{
    
 }
 
+
+nav {
+    float:left; 
+    width: 100%;
+    background-color: #C70A80;
+
+}
+
 ul{
     list-style: none;
     
@@ -54,8 +62,12 @@ ul{
     font-size: 50px;
     margin: 0;
     
-    /*aca me falta que se estire toda la pantalla*/
+   
 }
+/*#menu{
+    overflow: hidden;
+    background-color: #C70A80;
+}*/
 
 /*hace que cuando nos apoyemos en el nombre se marque de un color*/
 #menu li a:hover{
@@ -75,6 +87,7 @@ ul{
 
 #menu li ul{
     display: none;
+    width: 30%;
 }
 
 /*permite mostrar los submenu*/
@@ -107,9 +120,8 @@ ul{
     font-weight: bolder;
 }
 
-nav{
-    background-color: #C70A80;
-}
+
+
 /*ve para qe sirven
 touch-action: manipulation;
     cursor: pointer; ESTE PONERLO EN EL FORMULARIO
