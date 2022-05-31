@@ -156,7 +156,7 @@ input{
 
 }
 
-a{
+.contenedor a{
 
     text-decoration: none;
     color: #C70A80;
@@ -164,7 +164,19 @@ a{
     font-weight: bolder;
     
 }
+.redes{
+    background-color: aqua;
+    border: #590696;
+    border-style: groove;
+    position: relative;
+}
 
+.redes a{
+    text-decoration: none;
+    color: #C70A80;
+    position: absolute;
+
+}
 
 
 /*

@@ -1,0 +1,116 @@
+
+
+/*estilos que iran en todas las paginas*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F9EAF8;
+    
+    
+}
+
+body {
+	margin: 0; 
+    padding: 0;
+    font-family: 'Sacramento', cursive;
+	/*font: 70%/1.5em  Verdana, Tahoma, Arial,sans-serif;*/
+    overflow: auto;
+	color: #590696; 
+	text-align: center; 
+    cursor: ;
+}
+
+/*configura el titulo*/
+
+
+header h1{
+    color: #590696;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Allison', cursive; 
+    font-size: 700%;
+    text-shadow: 20px 20px 25px rgb(82, 6, 88);
+    letter-spacing: 5px;
+    
+   
+}
+
+ul{
+    list-style: none;
+    
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+    background-color: #C70A80;
+    padding:5px;
+    display: inline-block;
+    min-width: 230px;
+    font-family: 'Sacramento', cursive;
+    font-size: 50px;
+    margin: 0;
+    
+    /*aca me falta que se estire toda la pantalla*/
+}
+
+/*hace que cuando nos apoyemos en el nombre se marque de un color*/
+#menu li a:hover{
+    color: black;
+    background-color: aliceblue;
+
+}
+
+/*hace el menu horizontal*/
+#menu li{
+    float: left;
+    text-align: center;
+    
+}
+
+/*hace el menu desplegable*/
+
+#menu li ul{
+    display: none;
+}
+
+/*permite mostrar los submenu*/
+
+#menu li:hover ul{
+    display: block;
+}
+
+.redes{
+    float: left;
+    text-decoration:underline;
+    color: #C70A80;
+    font-size: 25px;
+    font-family: 'Sacramento', cursive;
+    font-weight: 200;
+    width: 21%; 
+	margin: 0;
+    padding: 0; 
+	display: inline;
+    border-radius:0 50% 0 50%;
+    background-color: #dd8af7;
+    
+}
+
+.redes a{
+    text-decoration: none;
+    color: #590696;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-weight: bolder;
+}
+
+nav{
+    background-color: #C70A80;
+}
+/*ve para qe sirven
+touch-action: manipulation;
+    cursor: pointer; ESTE PONERLO EN EL FORMULARIO
+    */
