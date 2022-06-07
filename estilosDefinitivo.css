@@ -50,7 +50,18 @@ nav {
 ul{
     list-style: none;
     position: absolute;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
     
+}
+
+.redes{
+    float: left;
+
+    
+
 }
 
 #menu li a{
@@ -82,7 +93,7 @@ ul{
 
 /*hace el menu horizontal*/
 #menu li{
-    float: left;
+    /*float: left;*/
     text-align: center;
     
 }
@@ -169,13 +180,12 @@ form{
     font-size: 30px;
 }
 
-blockquote{
+/*blockquote{
     font-family: ;
-}
+}*/
 
-.contenido #one{
-    font-family: 'Molle', cursive;
-}
+
+
 /*ve para qe sirven
 touch-action: manipulation;
     cursor: pointer; ESTE PONERLO EN EL FORMULARIO
