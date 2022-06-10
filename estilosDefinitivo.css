@@ -40,9 +40,6 @@ nav {
     /*background-color: #C70A80;*/
 }
 
-#menu {
-    /*background-color: #C70A80;*/
-}
 
 #menu {
     width: 100%;
@@ -79,6 +76,7 @@ nav {
     font-family: 'Sacramento';
     font-size: 50px;
     margin: 0;
+    text-align: center;
 }
 
 .servicio {
@@ -113,14 +111,6 @@ nav {
 }
 
 
-/*hace el menu horizontal*/
-
-#menu li {
-    /*float: left;*/
-    text-align: center;
-}
-
-
 /*hace el menu desplegable*/
 
 #menu li ul {
@@ -146,11 +136,14 @@ nav {
     padding: 0;
     display: inline;
     border-radius: 0 50% 0 50%;
-    background-color: #dd8af7;
+    position: relative;
+    
 }
 
+/*pone a la izq el titulo*/
 .redes h3 {
-    text-align: start;
+    text-align: left;
+    position: relative;
 }
 
 .redes a {
@@ -159,6 +152,18 @@ nav {
     font-family: 'Sacramento', cursive;
     text-align: center;
     font-weight: bolder;
+    
+}
+
+#redesMedia li{
+    text-decoration: none;
+    list-style: none;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+
+    
 }
 
 .contenedor {
