@@ -59,11 +59,6 @@ nav {
     background-color: #C70A80;
 }
 
-#redesMedia {
-    display: flex;
-    justify-content: space-around;
-    width: 900px;
-}
 
 #menu li a,
 #menu li {

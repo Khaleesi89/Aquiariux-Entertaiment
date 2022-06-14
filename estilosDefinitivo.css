@@ -1,129 +1,7 @@
 /*estilos que iran en todas las paginas*/
 
-* {
-    margin: 0;
-    padding: 0;
-    
-    background-color: #F9EAF8;
-}
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Sacramento', cursive;
-    /*font: 70%/1.5em  Verdana, Tahoma, Arial,sans-serif;*/
-    /*overflow: auto;*/
-    width: 100%;
-    color: #590696;
-    text-align: center;
-    /*cursor: ;*/
-}
 
 
-/*configura el titulo*/
-
-header .titulo h1 {
-    color: #590696;
-    font-style: italic;
-    text-align: center;
-    font-weight: bolder;
-    font-family: 'Allison', cursive;
-    font-size: 700%;
-    text-shadow: 20px 20px 25px rgb(82, 6, 88);
-    letter-spacing: 5px;
-    margin-bottom: 30px;
-}
-
-nav {
-    /*float:left;*/
-    width: 100%;
-    /*background-color: #C70A80;*/
-}
-
-
-#menu {
-    width: 100%;
-    list-style: none;
-    /* position: relative; */
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    overflow: hidden;
-    font-size: 15px;
-    background-color: #C70A80;
-}
-
-#ulDos {
-    position: absolute;
-    width: 80px;
-    background-color: #C70A80;
-}
-
-#redesMedia {
-    display: flex;
-    justify-content: space-around;
-    width: 900px;
-}
-
-#menu li a,
-#menu li {
-    color: white;
-    text-decoration: none;
-    background-color: #C70A80;
-    padding: 5px;
-    display: block;
-    /* min-width: 230px; */
-    font-family: 'Sacramento';
-    font-size: 50px;
-    margin: 0;
-    text-align: center;
-}
-
-.servicio {
-    padding: 5px;
-}
-
-#ulDos li a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    background-color: #C70A80;
-    /* min-width: 230px; */
-    font-family: 'Sacramento';
-    font-size: 50px;
-    margin: 0;
-}
-
-#ulDos li {}
-
-
-/*#menu{
-    overflow: hidden;
-    background-color: #C70A80;
-}*/
-
-
-/*hace que cuando nos apoyemos en el nombre se marque de un color*/
-
-#menu li a:hover {
-    color: black;
-    background-color: aliceblue;
-}
-
-
-/*hace el menu desplegable*/
-
-#menu li ul {
-    display: none;
-    width: 15%;
-}
-
-
-/*permite mostrar los submenu*/
-
-#menu li:hover ul {
-    display: block;
-}
 
 .redes {
     text-decoration: underline;
@@ -141,6 +19,7 @@ nav {
 }
 
 /*pone a la izq el titulo*/
+
 .redes h3 {
     text-align: left;
     position: relative;
@@ -155,10 +34,16 @@ nav {
     
 }
 
+#redesMedia {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+}
+
 #redesMedia li{
     text-decoration: none;
     list-style: none;
-    flex-direction: column;
+    
     border-style: solid;
     border-color: black;
     border-width: 10px;
