@@ -1,28 +1,107 @@
-/*estilos que iran en todas las paginas*/
+/* PAGINA PRINCIPAL*/
 
-
-
-
-.redes {
-    text-decoration: underline;
-    color: #C70A80;
-    font-size: 25px;
+#footer{
     font-family: 'Sacramento', cursive;
-    font-weight: 200;
-    width: 21%;
-    margin: 0;
-    padding: 0;
-    display: inline;
-    border-radius: 0 50% 0 50%;
-    position: relative;
-    
+    font-size: 25px; 
+    margin-top: 60px;
+    background-color: #C70A80;
 }
 
-/*pone a la izq el titulo*/
+
 
 .redes h3 {
     text-align: left;
-    position: relative;
+    top: 100px;
+    padding: 16px;
+    text-decoration: underline;
+    font-size: 30px;
+    text-shadow: 20px 20px 25px rgb(82, 6, 88);
+    letter-spacing: 2px;
+    color: #C70A80;
+    font-weight: 200px; 
+    
+}
+
+.redes li a {
+    text-decoration: none;
+    color: #590696;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    margin-left: 10px;
+    
+    
+    
+}
+
+i{
+    font-size: 30px;
+}
+
+.redes li{
+    display: inline;
+    padding: 20px;
+    list-style: none;
+    margin: 10px;
+}
+
+.contenido h1{
+    color: #C70A80;
+    font-weight: 30px; 
+    margin: 50px;
+    padding: 50px;
+    text-shadow: 20px 20px 25px rgb(82, 6, 88);
+}
+
+.remarcar:hover{
+    color:black;
+    animation: tada; 
+    animation-duration: 2s; 
+}
+
+.go{
+    animation: backOutLeft; 
+    animation-duration: 2s; 
+}
+/*
+.contenido h1 .remarcar{
+    animation: bounce; 
+    animation-duration: 2s;
+
+}
+*/
+
+#redesMedia li i a{
+    animation: flash; 
+    animation-duration: 2s; 
+}
+#redesMedia li i:hover{
+    animation: flash; 
+    animation-duration: 2s; 
+}
+
+
+
+
+
+
+
+
+
+
+/*pone a la izq el titulo*/
+
+/*
+.redes h3 {
+    text-align: left;
+    position: absolute;
+    top: 100px;
+    border-top: solid;
+    padding: 16px;
+    
+
+    
 }
 
 .redes a {
@@ -35,21 +114,23 @@
 }
 
 #redesMedia {
-    display: flex;
+    padding-left: 0;
     justify-content: space-around;
     width: 900px;
+    position: absolute;
+    top: 150px;
+    text-align: left;
+    
+
 }
 
 #redesMedia li{
     text-decoration: none;
     list-style: none;
     
-    border-style: solid;
-    border-color: black;
-    border-width: 10px;
+}*/
 
-    
-}
+
 
 .contenedor {
     width: 70%;
@@ -101,9 +182,12 @@ form {
     font-size: 28px;
 }
 
+/*
 .contenido blockquote {
     margin-bottom: 20px;
 }
+*/
+
 
 
 /*blockquote{
