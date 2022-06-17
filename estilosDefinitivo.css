@@ -54,16 +54,17 @@ i{
     text-shadow: 20px 20px 25px rgb(82, 6, 88);
 }
 
+.contenido h1{
+    margin: 100px;
+}
+
 .remarcar:hover{
     color:black;
     animation: tada; 
     animation-duration: 2s; 
+    margin: 100px;
 }
 
-.contenido #estrella{
-    animation-name: none;
-    animation-iteration-count: infinite;
-}
 
 
 .contenido img{
@@ -72,6 +73,7 @@ i{
     border-color: #C70A80;
     border-style: solid;
     border-width: 30px;
+    box-shadow: 0px 35px 44px #590696;
 }
 #redesMedia li i a{
     animation: flash; 
@@ -98,12 +100,19 @@ i{
     border-style: solid;
     border-width: 30px;
     text-align: right;
+    position: relative;
 }
 
 form {
-    text-align: center;
+    
     background: transparent;
-}
+    border-style: solid;
+    border-width: 15px;
+    border-color: black;
+    position: relative;
+    
+} 
+
 
 .contenedor p {
     text-align: right;
@@ -111,6 +120,15 @@ form {
     font-weight: bolder;
     background-color: transparent;
     color: black;
+    border-style: solid;
+    border-width: 15px;
+    border-color: blue;
+    display: flex;
+    
+    
+    right: 60px;
+
+    
 }
 
 .contenedor h3 {
@@ -118,11 +136,20 @@ form {
     background-color: transparent;
     text-align: right;
     color: black;
+    border-style: solid;
+    border-width: 15px;
+    border-color: yellow;
+    position: absolute;
+    right: 70px;
 }
 
 .contenedor input {
     float: right;
+    right: 40px;
     cursor: pointer;
+    border-style: solid;
+    border-width: 15px;
+    border-color: gray;
 }
 
 .contenedor a {
@@ -130,12 +157,19 @@ form {
     text-decoration: none;
     color: black;
     font-size: 30px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: green;
+    
 }
 
+/*
 .contenido {
     margin-top: 40px;
     font-size: 28px;
 }
+
+
 
 .ubicacion{
     position: relative;
@@ -147,15 +181,20 @@ hr{
     border-width: 5px;
 }
 
-#direccion{
+.cuadro{
     border-style: solid;
     border-width: 15px;
     border-color: black;
     width: 500px;
+    position: absolute;
 }
 
 .mapouter{
     border-style: solid;
     border-width: 15px;
     border-color: black;
+    float: right;
+    top: -150px;
 }
+LO DEL MAPA
+*/
