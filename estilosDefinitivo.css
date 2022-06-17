@@ -81,7 +81,9 @@ i{
     animation-duration: 2s; 
 }
 
-
+.contenido i{
+    margin-right: 10px;
+}
 
 
 
