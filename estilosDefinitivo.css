@@ -60,9 +60,9 @@ i{
     animation-duration: 2s; 
 }
 
-.go{
-    animation: backOutLeft; 
-    animation-duration: 2s; 
+.contenido #estrella{
+    animation-name: none;
+    animation-iteration-count: infinite;
 }
 /*
 .contenido h1 .remarcar{
