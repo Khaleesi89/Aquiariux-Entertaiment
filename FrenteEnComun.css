@@ -100,7 +100,7 @@ nav {
     margin: 0;
 }
 
-#ulDos li {}
+
 
 
 /*#menu{
@@ -129,4 +129,11 @@ nav {
 
 #menu li:hover ul {
     display: block;
+}
+
+#footer{
+    font-family: 'Sacramento', cursive;
+    font-size: 25px; 
+    margin-top: 60px;
+    background-color: #C70A80;
 }
