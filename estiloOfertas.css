@@ -1,4 +1,4 @@
-
+/*
 .proceso h1{
     font-size: 40px;
 }
@@ -13,4 +13,9 @@ h3{
     font-size: 50px;
     text-decoration:underline;
 }
+*/
+header .titulo h1 {
 
+    animation: fadeInDown; 
+    animation-duration: 2s;
+}
