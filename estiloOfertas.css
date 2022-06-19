@@ -1,0 +1,36 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.proceso h1{
+    font-size: 40px;
+}
+
+
+.ofertas h1{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.ofertas h3{
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    text-align: left;
+    margin-left: 50px;
+}
+
+
+th,td{
+    border-style:outset;
+     border-width: 5px;
+     border-color: #C70A80;
+     margin: 0;
+     padding: 10px;
+
+
+}
+    
+input{
+    vertical-align: text-top;
+}
