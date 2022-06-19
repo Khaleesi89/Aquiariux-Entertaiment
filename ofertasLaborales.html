@@ -16,9 +16,13 @@
         <!-- SE INCORPORO ARCHIVO CSS PARA LAS ANIMACIONES-->
         <link
         rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
-    
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script type="text/javascript">
+            function alert1(texto){
+                i++;
+                salida.value+=i+" "+texto+"\n";
+                }
+            </script>
     
     </head>
     
@@ -137,14 +141,18 @@
                         <td>J</td>
                         <td>Se precisan actores y actrices mayores de 18 años con buen ingl+es y amante de las pelìculas de terror para proyecto en Madrid</td>
                     </tr>
-
-
-
-
                 </table>
-                
-
-
+                <script type="text/javascript">
+                    var i=0;
+                    </script>
+                <form action="" onsubmit>
+                    Anote las opciones elegidas (una a la vez) <input type="text" id="tx1">
+                                <br>
+                    
+                    </form>
+                    <textarea rows="20" cols="20" id="salida"></textarea>
+                    <input type="submit" value="AGREGAR">
+                    <input type="reset" value="BORRAR">
             </div>
 
 
