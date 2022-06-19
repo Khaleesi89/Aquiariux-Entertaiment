@@ -56,6 +56,7 @@ i{
 
 .contenido h1{
     margin: 100px;
+    font-size: 60px;
 }
 
 .remarcar:hover{
@@ -88,10 +89,11 @@ i{
     margin-right: 10px;
 }
 
+
 .contenedor {
     width: 70%;
     margin: 0 auto;
-    background: url(FILMADORA\ PARA\ FORMULARIO.jpg)no-repeat 0px 0px;
+    background: url(imagenes\ de\ pagina\ principal/filmadora.jpg)no-repeat 0px 0px;
     background-size: cover;
     background-position: center;
     padding: 30px 33px 67px;
@@ -99,57 +101,62 @@ i{
     border-color: #C70A80;
     border-style: solid;
     border-width: 30px;
-    text-align: right;
-    position: relative;
+    text-align: right; 
+    
 }
 
 form {
     
     background: transparent;
-    border-style: solid;
-    border-width: 15px;
-    border-color: black;
     position: relative;
+     
     
 } 
 
-
-.contenedor p {
-    text-align: right;
-    font-size: 30px;
-    font-weight: bolder;
-    background-color: transparent;
-    color: black;
-    border-style: solid;
-    border-width: 15px;
-    border-color: blue;
-    display: flex;
-    
-    
-    right: 60px;
-
-    
+.ingresar{
+    background: transparent;
 }
+
 
 .contenedor h3 {
     font-size: 50px;
     background-color: transparent;
     text-align: right;
     color: black;
-    border-style: solid;
-    border-width: 15px;
-    border-color: yellow;
-    position: absolute;
-    right: 70px;
+    display: inline-flex;
+    margin-right:100px ;
+    
+        
+}
+.contenedor p {
+    text-align: right;
+    font-size: 35px;
+    font-weight: bolder;
+    background-color: transparent;
+    color: black;
+    display: flex;
+    margin-left: 600px;
+    
+        
+}
+.contenedor input {
+
+   
+    cursor: pointer;
+    display: flex-end;
+    margin-right: 20%;
+        
+    
 }
 
-.contenedor input {
-    float: right;
-    right: 40px;
-    cursor: pointer;
-    border-style: solid;
-    border-width: 15px;
-    border-color: gray;
+#in,#on{
+    background-color: #C70A80;
+    border-color: #590696;
+    font-weight: bolder;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-right: 120px;
 }
 
 .contenedor a {
@@ -157,11 +164,16 @@ form {
     text-decoration: none;
     color: black;
     font-size: 30px;
-    border-style: solid;
-    border-width: 15px;
-    border-color: green;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-weight: bolder;
+    margin-right: 30px;
+    margin-bottom: 10px;
+        
     
 }
+
 
 /*
 .contenido {
