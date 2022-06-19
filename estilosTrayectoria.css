@@ -1,0 +1,84 @@
+
+
+p{
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+    font-weight: 100px;
+}
+
+img{
+    border-color: darkmagenta;
+    border-width: 20px;
+    border-style: solid;
+}
+
+
+blockquote{
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    margin: 30px;
+    padding: 30px;
+    font-style: italics;
+    background-color:#ff9a7f ;
+}
+
+/*
+.mensaje{
+    margin-top:20px ;
+    margin-bottom:20px ;
+}
+*/
+.mensaje .titila{
+    animation: flash; 
+    animation-duration: 2s; 
+    margin-top:20px ;
+    margin-bottom:20px ;
+   
+}
+
+.mensaje .titila:hover{
+    animation: heartBeat; 
+    animation-duration: 2s; 
+    font-weight: 30px;
+}
+
+.meryl, .kate, .olivia, .leo{
+    font-size: 30px;
+    margin-top:20px ;
+    margin-bottom:20px ;
+    padding: 50px;
+    /*text-decoration: underline;*/
+}
+.mensaje{
+    margin-top: 150px;
+}
+
+/*ESTOS SON LOS ESTILOS DE MATERIALIZE*/
+/*
+.carousel{
+    min-height: 700px;
+}
+*/
+.carousel .carousel-item{
+    user-select: none;
+    width: 400px;
+    height: 400px;
+}
+
+.carousel .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:50px;
+    left: 0;
+    border-radius: 15px;
+}
+
+/*
+.carousel .indicators-items{
+    border-radius: 0;
+    transform: rotate(45deg);
+    margin: 0 15px;
+    background: #C70A80;
+}*/
