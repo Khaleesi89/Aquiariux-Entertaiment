@@ -1,0 +1,19 @@
+
+.mis p{
+    font-size: 30px;
+    margin: 30px;
+    padding: 30px;
+   
+}
+
+
+.mis p .anim{
+    animation: tada; 
+    animation-duration: 2s;
+}
+
+
+.mis p .anim:hover{
+    animation: tada; 
+    animation-duration: 2s;
+}
