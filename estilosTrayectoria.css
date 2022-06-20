@@ -177,11 +177,30 @@ iframe{
 
 
 .peli4{
-    
+    float: left;
     margin: 50px;
-    top: 200px;
+    
 }
 
 .subtitulo{
     text-align: left;
+}
+
+.peli5{
+    float: left;
+    margin: 50px;
+}
+
+.peli6{
+    float: left;
+    margin: 50px;
+}
+.peli7{
+    float: left;
+    margin: 50px;
+}
+
+.peli8{
+    float: left;
+    margin: 50px;
 }
