@@ -121,10 +121,15 @@ img:hover{
     border-radius: 15px;
 }
 
+
 h1,li{
     font-size: 30px;
-    color: #C70A80;
+    margin-top: 20px;
     
+}
+
+ul li a{
+    color: #C70A80;
 }
 
 .diarios{
