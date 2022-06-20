@@ -4,14 +4,14 @@ p{
 }
 
 
-
-
-
 img{
     width: 400px;
     height: 400px;
     margin: 10px;
-    float: left;
+    border-color: blue;
+    border-style: solid;
+    border-width: 10px;
+    
     
     
 }
@@ -21,6 +21,14 @@ img:hover{
     animation-duration: 2s; 
 }
 
+.mayor h1{
+    text-shadow: 20px 20px 25px rgb(82, 6, 88);
+    font-size: 50px;
+    text-align: left;
+    margin-left: 20px;
+    text-decoration: underline;
+
+}
 .bazaar{
     width: 300px;
     height: 100px;
@@ -91,4 +99,47 @@ img:hover{
 .norton{
     width: 500px;
     height: 200px;
+}
+
+/*
+.mayor{
+    display: flex;
+}
+#footer-left{
+    align-content: flex-end;
+    align-items: flex-end;
+}
+*/
+/*
+.revistas a{
+    float: left;
+    align-content: center ;
+}
+
+.diarios a{
+    float: left;
+}
+
+.programas{
+    float: left;
+}
+
+.mediosss{
+    flex-direction: row;
+}*/
+
+.carousel .carousel-item{
+    user-select: none;
+    width: 400px;
+    height: 400px;
+}
+
+.carousel .carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top:50px;
+    left: 0;
+    border-radius: 15px;
 }
