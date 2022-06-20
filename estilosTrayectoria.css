@@ -8,7 +8,7 @@ p{
 
 img{
     border-color: darkmagenta;
-    border-width: 20px;
+    border-width: 50px;
     border-style: solid;
 }
 
@@ -19,7 +19,9 @@ blockquote{
     margin: 30px;
     padding: 30px;
     font-style: italics;
-    background-color:#ff9a7f ;
+    background-color:#C70A80 ;
+    margin-left: 50px;
+    color: white;
 }
 
 /*
@@ -42,13 +44,23 @@ blockquote{
     font-weight: 30px;
 }
 
-.meryl, .kate, .olivia, .leo{
+.artistas{
+    text-decoration: underline;
+    margin-top:100px ;
+    margin-bottom:100px ;
+    text-align: left;
+    margin-left: 25px;
+
+}
+/*
+.meryl, .kate , .olivia , .leo {
     font-size: 30px;
     margin-top:20px ;
     margin-bottom:20px ;
     padding: 50px;
-    /*text-decoration: underline;*/
+    text-decoration: underline;
 }
+*/
 .mensaje{
     margin-top: 150px;
 }
@@ -82,3 +94,61 @@ blockquote{
     margin: 0 15px;
     background: #C70A80;
 }*/
+
+.fotos{
+    border-color: #C70A80;
+    border-style: solid;
+    border-width: 30px;
+    box-shadow: 0px 35px 44px #590696;
+    margin-bottom: 100px;
+   
+}
+
+#mer{
+    width: 850px;
+    height: 450px;
+}
+
+#ka{
+    width: 500px;
+    height: 650px;
+    float: right;
+    margin:25px;
+}
+
+#oli{
+    width: 750px;
+    height: 550px;
+}
+#leo{
+    width: 500px;
+    height: 650px;
+    float: left;
+    margin:25px;
+    
+}
+
+.leo p{
+    margin-right: 10px;
+
+}
+
+.subtitulo{
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+
+.artistas{
+    text-shadow: 20px 20px 25px rgb(82, 6, 88);
+    margin-right: 30px;
+
+}
+
+iframe{
+    border-color: #C70A80;
+    border-style: solid;
+    border-width: 30px;
+}
