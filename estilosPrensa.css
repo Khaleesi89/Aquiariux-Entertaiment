@@ -1,18 +1,16 @@
 
 p{
-    font-size: 50px;
+    font-size: 40px;
+    margin-top: 20px;
+
 }
 
 
 img{
     width: 400px;
     height: 400px;
-    margin: 10px;
-    border-color: blue;
-    border-style: solid;
-    border-width: 10px;
-    
-    
+    margin: 20px;
+
     
 }
 
@@ -84,6 +82,7 @@ img:hover{
 .wash{
     width: 500px;
     height: 100px;
+    
 }
 
 .ellen{
@@ -101,32 +100,10 @@ img:hover{
     height: 200px;
 }
 
-/*
-.mayor{
-    display: flex;
+.bbc{
+    width: 300px;
+    height: 200px;
 }
-#footer-left{
-    align-content: flex-end;
-    align-items: flex-end;
-}
-*/
-/*
-.revistas a{
-    float: left;
-    align-content: center ;
-}
-
-.diarios a{
-    float: left;
-}
-
-.programas{
-    float: left;
-}
-
-.mediosss{
-    flex-direction: row;
-}*/
 
 .carousel .carousel-item{
     user-select: none;
@@ -142,4 +119,14 @@ img:hover{
     top:50px;
     left: 0;
     border-radius: 15px;
+}
+
+h1,li{
+    font-size: 30px;
+    color: #C70A80;
+    
+}
+
+.diarios{
+    margin: 0;
 }
