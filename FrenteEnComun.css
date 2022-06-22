@@ -122,6 +122,8 @@ nav {
 #menu li ul {
     display: none;
     width: 15%;
+    z-index: 10;
+    text-align: center;
 }
 
 

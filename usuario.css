@@ -2,17 +2,20 @@
 .formulario h3, input{
     display:inline-flex;
     margin: 5px;
+    
 }
 
 .formulario h3{
     font-size: 27px;
     background: transparent;
     font-weight: bolder;
+  
    
     
 }
 .formulario input{
     font-size: 15px;
+    
     
 }
 
@@ -27,7 +30,9 @@
     border-color: #C70A80;
     border-style: solid;
     border-width: 30px;
-    text-align: center; 
+    text-align: center;
+     
+    
    
     
 }
@@ -38,6 +43,7 @@ form {
     background: transparent;
     position: relative;
     
+    
      
 } 
 
@@ -45,4 +51,27 @@ h1{
     margin: 15px;
     text-decoration: underline;
     font-size: 30px;
+    
+}
+
+.titulo h1{
+    text-decoration: none;
+}
+
+.boton{
+    background-color: #C70A80;
+    color: antiquewhite;
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2 all;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+
+}
+
+.boton:active{
+    transform: scale(0.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
