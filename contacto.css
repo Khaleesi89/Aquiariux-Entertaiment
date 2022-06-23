@@ -6,6 +6,7 @@
     position: relative;
     left: 375px;
     margin-bottom: 5%;
+    box-shadow: 0px 35px 44px #590696;
 }
 
 .formula form{
@@ -57,6 +58,7 @@ input{
     border-style: solid;
     border-width: 10px;
     border-color: #C70A80;
+    box-shadow: 0px 35px 44px #590696;
     
 
 }
