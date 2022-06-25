@@ -41,19 +41,19 @@ form.addEventListener("submit", e=>{
         entrar = true
     }
     if(cp.value.length == 0){
-        warnings += "Ingrese un nombre <br>"
+        warnings += "Ingrese un código postal <br>"
         entrar = true
     }
     
-    if(pais.value.length == 0){
+    if(pais.value.length = 0){
         warnings += "Ingrese su país <br>"
         entrar = true
     }
-    if(telefono.value.length == 0){
+    if(telefono.value.length = 0){
         warnings += "Ingrese su número de teléfono <br>"
         entrar = true
     }
-    if(fech_nac.value.length == 0){
+    if(fech_nac.value.length = 0){
         warnings += "Ingrese su fecha de nacimiento <br>"
         entrar = true
     }
@@ -64,5 +64,7 @@ form.addEventListener("submit", e=>{
     }
     if(entrar){
         parrafo.innerHTML = warnings
+    }else{
+        parrafo.innerHTML = "Enviado. Recibirá por email sus datos de ingreso"
     }
 })
