@@ -59,13 +59,13 @@
                 <div class="formula">
                     <form>
 
-                        <h3>Nombre/Name</h3> <input type="text" placeholder="Tu nombre" required/> <br>
-                        <h3>Apellido / Surname </h3> <input type="text" placeholder="Tu apellido"/><br>
+                        <h3>Nombre/Name</h3> <input id="name" type="text" placeholder="Tu nombre" /> <br>
+                        <h3>Apellido / Surname </h3> <input id="apellido" type="text" placeholder="Tu apellido"/><br>
                         <h3>Sexo/ Gender :</h3><h3>Masculino/Male</h3> <input type="radio" name= "SEXO"/>
                         <h3>Femenino/Female</h3>  <input type="radio" name= "SEXO"/><br>
-                        <h3>Pais/Country: </h3><input type="text" placeholder="País" required/><br>
-                        <h3>Teléfono/Phone-Cellphone:</h3> <input type="text" placeholder="Teléfono Fijo/Celular"/><br>
-                        <h3>Email: </h3><input type="email" placeholder="Tu email" required/><br>
+                        <h3>Pais/Country: </h3><input id="pais" type="text" placeholder="País" /><br>
+                        <h3>Teléfono/Phone-Cellphone:</h3> <input id="phone" type="text" placeholder="Teléfono Fijo/Celular"/><br>
+                        <h3>Email: </h3><input id="mail" type="email" placeholder="Tu email" /><br>
                         <h3>Tema a tratar / Talk about:</h3><br><br>
                         <select>
                 
@@ -92,8 +92,8 @@
                         
                         
                         <input class="boton" type="reset" value="BORRAR"/>
-                        <input class="boton" type="submit" value="ENVIAR"/>
-                        <p class="warnings" id="warnings"></p>
+                        <input class="boton" onclick="return validacion()" type="submit" value="ENVIAR"/>
+                        <h6 class="warnings" id="warnings"></h6>
                         
                         </form>
                 
@@ -139,7 +139,7 @@
                 </div>
             
         </div>
-
+        <script src="contacto.css"></script>
         <div id="footer">
             <div id="footer-content">
               <div id="footer-left"> &copy; Copyright 2022 <strong>Aquiariux Entertaiment</strong>&nbsp; Design by: Klimisch Marcia </div>
