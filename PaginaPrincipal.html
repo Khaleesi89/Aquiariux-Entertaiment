@@ -16,11 +16,10 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-
-
+  
 </head>
 
-<body>
+<body onunload = "cerrarPagina()" onload="abrirEmergente()">
     <br>
 
 
@@ -127,8 +126,8 @@
 
     </div>
 
-    <div class="overlay">
-        <div class="popup">
+    <div class="overlay" id="overlay">
+        <div class="popup" id="popup">
             <a href="#" id="btn-cerrar-popup" class="btn-cerrar-popup"><i class="fas fa-times"></i></a> 
             <h3>Suscribete a nuestros Newsletter</h3>
             <form action="">
