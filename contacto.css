@@ -96,3 +96,14 @@ input{
     padding: 0;
     margin: 20px;
 }
+
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #C70A80;
+    padding-top: 20px;
+    font-weight: bolder;
+    background: transparent;
+}

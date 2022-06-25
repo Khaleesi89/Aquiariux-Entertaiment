@@ -49,3 +49,14 @@ input{
 .formulario{
     font-size: 25px;
 }
+
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #C70A80;
+    padding-top: 20px;
+    font-weight: bolder;
+    background: transparent;
+}
