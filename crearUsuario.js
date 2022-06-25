@@ -15,53 +15,45 @@ form.addEventListener("submit", e=>{
     e.preventDefault()
     let warnings = ""
     parrafo.innerHTML = ""
-    let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
+    
     if(nombre.value.length == 0){
-        warnings += "Ingrese su nombre <br>"
+        
+        warnings += " // Ingrese su nombre // "
         entrar = true
     }
     if(apellido.value.length == 0){
-        warnings += "Ingrese su apellido <br>"
+        warnings += " // Ingrese su apellido // "
         entrar = true
     }
-    if(documento.value.length == 0){
-        warnings += "Ingrese su número de documento <br>"
-        entrar = true
-    }
-    if(documento.value.length >= 9){
-        warnings += "Ingrese un número de documento válido <br>"
+    if(documento.value.length > 9 || documento.value.length < 8 ){
+        warnings += " // Ingrese un número de documento válido // "
         entrar = true
     }
     if(direccion.value.length == 0){
-        warnings += "Ingrese su dirección <br>"
+        warnings += " // Ingrese su dirección //"
         entrar = true
     }
     if(ciudad.value.length == 0){
-        warnings += "Ingrese lugar de residencia <br>"
+        warnings += " // Ingrese lugar de residencia //"
         entrar = true
     }
     if(cp.value.length == 0){
-        warnings += "Ingrese un código postal <br>"
+        warnings += " // Ingrese un código postal //"
         entrar = true
     }
-    
-    if(pais.value.length = 0){
-        warnings += "Ingrese su país <br>"
+    if(pais.value.length == 0){
+        warnings += " // Ingrese su país // "
         entrar = true
     }
-    if(telefono.value.length = 0){
-        warnings += "Ingrese su número de teléfono <br>"
-        entrar = true
-    }
-    if(fech_nac.value.length = 0){
-        warnings += "Ingrese su fecha de nacimiento <br>"
+    if(telefono.value.length == 0){
+        warnings += " // Ingrese su número de teléfono // "
         entrar = true
     }
 
-    if(!regexEmail.test(email.value)){
-        warnings += "El email no es válido <br>"
+    /*    if(!regexEmail.test(email.value)){
+        warnings += " // El email no es válido // "
         entrar = true
-    }
+    } */
     if(entrar){
         parrafo.innerHTML = warnings
     }else{

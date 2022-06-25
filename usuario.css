@@ -82,11 +82,15 @@ input{
 }
 
 .warnings{
-    width: 200px;
-    text-align: center;
+    width: 500px;
+    height: 100px;
+    text-align: justify;
     margin: auto;
     color: #C70A80;
     padding-top: 20px;
     font-weight: bolder;
     background: transparent;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 }
