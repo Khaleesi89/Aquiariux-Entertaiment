@@ -30,10 +30,13 @@ img{
     border-style:double;
     border-width: 23px;
 }
+.estitlista{
+    position: relative;
+}
 .estrella1{
     position: absolute;
     right: 200px;
-    top:00px;
+    top:700px;
 }
 .estrella2{
     position: absolute;

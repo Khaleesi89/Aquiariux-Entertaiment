@@ -79,12 +79,6 @@ img:hover{
     height: 100px;
 }
 
-.wash{
-    width: 500px;
-    height: 100px;
-    
-}
-
 .ellen{
     width: 300px;
     height: 100px;
@@ -130,8 +124,4 @@ h1,li{
 
 ul li a{
     color: #C70A80;
-}
-
-.diarios{
-    margin: 0;
 }
