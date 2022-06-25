@@ -14,6 +14,7 @@ const parrafo = document.getElementById("warnings")
 form.addEventListener("submit", e=>{
     e.preventDefault()
     let warnings = ""
+    parrafo.innerHTML = ""
     let regexEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/
     if(nombre.value.length == 0){
         warnings += "Ingrese su nombre <br>"
@@ -61,5 +62,7 @@ form.addEventListener("submit", e=>{
         warnings += "El email no es válido <br>"
         entrar = true
     }
-    if(!true){}
+    if(entrar){
+        parrafo.innerHTML = warnings
+    }
 })
