@@ -7,10 +7,15 @@ formu.addEventListener("submit", e=>{
     e.preventDefault()
     let warnings = ""
     parrafo.innerHTML = ""
-    if(password.value.length < 8 && password.value.length > 9){
+    if(usuario.value.length == 0){
+        warnings += "Ingrese su usuario <br>"
+        entrar = true
+    }
+    if(password.value.length < 8 || password.value.length > 8){
         warnings += "Password Inválido <br>"
         entrar = true
     }
+    
     if(entrar){
         parrafo.innerHTML = warnings
     }
