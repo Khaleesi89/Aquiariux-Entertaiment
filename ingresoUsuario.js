@@ -1,3 +1,25 @@
+document.addEventListener('DOMContentLoaded',()=>{
+
+    var overlay = document.getElementById("overlay")
+    var popup = document.getElementById("popup")
+    var btnCerrarPopup = document.getElementById("btn-cerrar-popup");
+
+    document.addEventListener('DOMContentLoaded', function(){
+	    overlay.classList.add('active');
+	    popup.classList.add('active');
+    });
+
+    btnCerrarPopup.addEventListener('click', function(e){
+	    e.preventDefault();
+	    overlay.classList.remove('active');
+	    popup.classList.remove('active');
+    });
+
+
+
+
+
+
 const usuario = document.getElementById("usuario")
 const password = document.getElementById("password")
 const formu = document.getElementById("formu")
@@ -21,13 +43,13 @@ formu.addEventListener("submit", e=>{
     }
 })
 
-
+/*
 function abrirEmergente(){
     var overlay = document.getElementById("overlay")
     var popup = document.getElementById("popup")
     var btnCerrarPopup = document.getElementById("btn-cerrar-popup");
 
-    btnAbrirPopup.addEventListener('load', function(){
+    document.addEventListener('DOMContentLoaded', function(){
 	    overlay.classList.add('active');
 	    popup.classList.add('active');
     });
@@ -39,4 +61,4 @@ function abrirEmergente(){
     });
 
 
-}
+} */
