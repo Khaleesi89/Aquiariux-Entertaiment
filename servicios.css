@@ -10,7 +10,10 @@
 .gym,
 .managers,
 .fotografos{
-
+    border-color:#C70A80;
+    border-style: solid;
+    border-radius: 15%;
+    border-width: 10px;
     width: 300px;
     height: 300px;
     font-size: 30px;
@@ -18,13 +21,12 @@
     margin: 20px;
     padding: 10px;
     float: left;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2 all;
     box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24),7px 6px 28px 1px rgba(0, 0, 0, 0.24),7px 6px 28px 1px rgba(0, 0, 0, 0.24);
     
-    background-color: #B031A2;
+    background-color: white;
        
     
 }
@@ -45,7 +47,7 @@
 }
 
 .servicios h3, h5,a{
-    background-color: #B031A2;
+    background-color: white;
     text-decoration: none;
     
 }
@@ -54,3 +56,13 @@
     margin-top: 25%;
 }
 
+.info{
+    color: black;
+     
+}
+
+.info:hover{
+    color: violet;
+    animation: flash;
+    animation-duration: 2s; 
+}
