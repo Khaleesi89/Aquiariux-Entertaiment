@@ -12,15 +12,15 @@
         <script src="https://kit.fontawesome.com/15093e2eb8.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="FrenteEnComun.css" />
         <link rel="stylesheet" href="escuelas.css" />
-        <script>
-            function cerrar(){
-                alert ("Desea salir de la página? Asegurese de haber enviado el formulario")
+        <script type="text/javascript">
+            function alert1(){
+                alert("Está por borrar todos los datos ingresados.")
             }
         </script>
     
     </head>
     
-    <body onunload="cerrar()">
+    <body>
         <br>
     
     
@@ -72,7 +72,7 @@
                     <br>
                     <h3>Datos Profesionales  <input class="boton" type="button" value="SUBIR CURRICULUM"/></h3>
                     <br>   
-                    <input class="boton" type="reset" value="BORRAR"/>
+                    <input class="boton" onclick="alert1()" type="reset" value="BORRAR"/>
                     <input class="boton" type="button" value="SUBIR FOTO"/>
                     <input class="boton" onclick="return  validacion()" type="submit" value="ENVIAR INSCRIPCIÓN"/>
                     <h6 class="warnings" id="warnings"></h6>

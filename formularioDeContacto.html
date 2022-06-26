@@ -15,8 +15,12 @@
         <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
-    
+        />
+        <script type="text/javascript">
+        function alert1(){
+            alert("Está por borrar todos los datos ingresados.")
+        }
+        </script>
     
     </head>
     
@@ -91,7 +95,7 @@
                         
                         
                         
-                        <input class="boton" type="reset" value="BORRAR"/>
+                        <input class="boton" onclick="alert1()" type="reset" value="BORRAR"/>
                         <input class="boton" onclick="return validacion()" type="submit" value="ENVIAR"/>
                         <h6 class="warnings" id="warnings"></h6>
                         
@@ -139,7 +143,7 @@
                 </div>
             
         </div>
-        <script src="contacto.css"></script>
+        <script src="escuelas.css"></script>
         <div id="footer">
             <div id="footer-content">
               <div id="footer-left"> &copy; Copyright 2022 <strong>Aquiariux Entertaiment</strong>&nbsp; Design by: Klimisch Marcia </div>

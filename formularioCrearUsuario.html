@@ -15,7 +15,12 @@
         <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-      />
+        />
+        <script type="text/javascript">
+            function alert1(){
+                alert("Está por borrar todos los datos ingresados.")
+            }
+        </script>
     
     
     </head>
@@ -75,9 +80,9 @@
                     
                     
                     
-                    <input class="boton" type="reset" value="BORRAR"/>
+                    <input class="boton" onclick="alert1()" type="reset" value="BORRAR"/>
                     <input class="boton" type="button" value="SUBIR FOTO"/>
-                    <input id="submit" class="boton" type="submit" value="CREAR USUARIO"/>
+                    <input id="submit" class="boton" onclick="return validacion()" type="submit" value="CREAR USUARIO"/>
                     <h6 class="warnings" id="warnings"></h6>
                 </form>
             </div>
