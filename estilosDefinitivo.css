@@ -259,9 +259,8 @@ input{
 
 .popup form .contenedor-inputs{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     height: 52px;
-    line-height: 52px;
     font-size: 18px;
     text-align: center;
     background: #ffdee1;
@@ -280,11 +279,14 @@ input{
     font-size: 18px;
     cursor: pointer;
     transition: .3s ease all;
+    
+    
 }
 
 .popup form .btn-submit:hover{
     background:#C70A80; 
     color: white;
+
 }
 
 .too{
