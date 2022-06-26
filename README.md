@@ -1,2 +1,0 @@
-# Aquiariux-Entertaiment
-TP FINAL DE PEyLW - TEC UNIV. EN DESARROLLO WEB
