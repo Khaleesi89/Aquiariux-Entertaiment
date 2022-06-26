@@ -22,7 +22,7 @@
 .formulario {
     width: 70%;
     margin: 0 auto;
-    background: url(/img\ crear\ usuario/formulario.jpg)no-repeat 0px 0px;
+    background: url(crear_usuario/formulario.jpg)no-repeat 0px 0px;
     background-size: cover;
     background-position: center;
     padding: 30px 33px 67px;

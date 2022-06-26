@@ -85,7 +85,7 @@ i{
 .contenedor {
     width: 70%;
     margin: 0 auto;
-    background: url(imagenes\ de\ pagina\ principal/filmadora.jpg)no-repeat 0px 0px;
+    background: url(pagina_principal/filmadora.jpg)no-repeat 0px 0px;
     background-size: cover;
     background-position: center;
     padding: 30px 33px 67px;
@@ -224,7 +224,7 @@ input{
 }
 
 .overlay:active{
-    visibility: visible;
+    visibility: visible!important;
 }
 .popup{
     background: #ffdee1;
