@@ -25,7 +25,7 @@ formu.addEventListener("submit", e=>{
 function abrirEmergente(){
     var overlay = document.getElementById("overlay")
     var popup = document.getElementById("popup")
-    var btnCerrarPopup = document.getElementById('btn-cerrar-popup');
+    var btnCerrarPopup = document.getElementById("btn-cerrar-popup");
 
     btnAbrirPopup.addEventListener('load', function(){
 	    overlay.classList.add('active');
