@@ -1,9 +1,10 @@
 
 p{
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    font-weight: bolder;
 }
 
 .slogan{
@@ -20,9 +21,7 @@ p{
     margin-right: 150px;
     font-weight: bolder;
 }
-.estitlista{
-    position: relative;
-}
+
 
 img{
     margin: 20px;
@@ -30,22 +29,7 @@ img{
     border-style:double;
     border-width: 23px;
 }
-.estitlista{
-    position: relative;
-}
-.estrella1{
-    position: absolute;
-    right: 200px;
-    top:700px;
-}
-.estrella2{
-    position: absolute;
-    
-}
-.estrella2b{
-    position: absolute;
-    
-}
+
 
 .rami{
     border-color: #C70A80;
