@@ -24,27 +24,54 @@ ul {
     min-width: 300px;
 }
 
+#lista-cursos .row {
+    margin-bottom:20px;
+}
+
+.agregar-carrito {
+    margin:10px 0;
+}
 /*estilo de la carta del item */
 
 .card {
     text-align: center;
     border: 1px solid #e1e1e1;
     background: white;
+   
 }
 
 /*info adentro card*/
 
 .info-card  {
     padding: 10px 20px;
+    
 }
 
+.info-card a {
+    background: transparent;
+    color: #C70A80;
+    font-weight: bold;
+    
+}
 .info-card p, 
 .card h4 {
     margin-bottom: 5px;
+    font-family: 'Sacramento', cursive;
 }
-    
+  
+.info-card h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: #590696;
+
+}
 .info-card .precio span {
     font-weight: 700;
     font-size: 22px;
 }
 
+.card{
+    width: 300px;
+    height: 400px;
+    background: transparent;
+}
