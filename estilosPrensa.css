@@ -2,6 +2,7 @@
 p{
     font-size: 40px;
     margin-top: 20px;
+    font-weight: bold;
 
 }
 
@@ -21,7 +22,7 @@ img:hover{
 
 .mayor h1{
     text-shadow: 20px 20px 25px rgb(82, 6, 88);
-    font-size: 50px;
+    font-size: 40px;
     text-align: left;
     margin-left: 20px;
     text-decoration: underline;
@@ -110,7 +111,7 @@ img:hover{
     height: 100%;
     object-fit: cover;
     position: absolute;
-    top:50px;
+    top:30px;
     left: 0;
     border-radius: 15px;
 }
@@ -120,8 +121,14 @@ h1,li{
     font-size: 30px;
     margin-top: 20px;
     
+    
 }
 
 ul li a{
     color: #C70A80;
+}
+
+.med{
+    font-size: 20px;
+    text-decoration: underline;
 }

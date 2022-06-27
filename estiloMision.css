@@ -1,17 +1,12 @@
 
 .mis p{
-    font-size: 30px;
+    font-size: 40px;
     margin: 30px;
     padding: 30px;
+    font-weight: bolder;
    
 }
 
-/*
-.anim{
-    animation: tada; 
-    animation-duration: 2s;
-}
-*/
 
 .anim:hover{
     animation: flash; 
