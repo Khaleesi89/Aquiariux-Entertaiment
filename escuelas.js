@@ -10,14 +10,12 @@ const telefono = document.getElementById("phone")
 const fech_nac = document.getElementById("nacim")
 const form = document.getElementById("formu")
 const parrafo = document.getElementById("warnings")
-const email = document.getElementById("email");
+
 
 function validacion(){
-    e.preventDefault()    
-    var expReg = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
     let warnings = ""
     parrafo.innerHTML = ""
-        
+ 
     if(nombre.value.length == 0){
         nombre.style= "border: red 4px solid"            
         warnings += " // Ingrese su nombre // "
@@ -59,11 +57,6 @@ function validacion(){
         entrar = true
     }
 
-    if(!expReg.test(email.value)){
-        email.style= "border: red 4px solid"
-        warnings += " // El email no es válido // "
-        entrar = true
-    } 
     if(entrar){
         parrafo.innerHTML = warnings
     }else{
@@ -73,55 +66,3 @@ function validacion(){
 }
 
 
-
-
-/*
-form.addEventListener("submit", e=>{
-    e.preventDefault()
-    let warnings = ""
-    parrafo.innerHTML = ""
-    
-    if(nombre.value.length == 0){
-        
-        warnings += " // Ingrese su nombre // "
-        entrar = true
-    }
-    if(apellido.value.length == 0){
-        warnings += " // Ingrese su apellido // "
-        entrar = true
-    }
-    if(documento.value.length > 9 || documento.value.length < 8 ){
-        warnings += " // Ingrese un número de documento válido // "
-        entrar = true
-    }
-    if(direccion.value.length == 0){
-        warnings += " // Ingrese su dirección //"
-        entrar = true
-    }
-    if(ciudad.value.length == 0){
-        warnings += " // Ingrese lugar de residencia //"
-        entrar = true
-    }
-    if(cp.value.length == 0){
-        warnings += " // Ingrese un código postal //"
-        entrar = true
-    }
-    if(pais.value.length == 0){
-        warnings += " // Ingrese su país // "
-        entrar = true
-    }
-    if(telefono.value.length == 0){
-        warnings += " // Ingrese su número de teléfono // "
-        entrar = true
-    }
-
-    /*    if(!regexEmail.test(email.value)){
-        warnings += " // El email no es válido // "
-        entrar = true
-    } */ /*
-    if(entrar){
-        parrafo.innerHTML = warnings
-    }else{
-        parrafo.innerHTML = "Enviado. Recibirá por email sus datos de ingreso"
-    }
-}) */
