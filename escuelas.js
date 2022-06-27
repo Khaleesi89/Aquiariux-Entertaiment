@@ -7,13 +7,14 @@ const ciudad = document.getElementById("city")
 const cp = document.getElementById("cp")
 const pais = document.getElementById("pais")
 const telefono = document.getElementById("phone")
-const email = document.getElementById("email")
 const fech_nac = document.getElementById("nacim")
 const form = document.getElementById("formu")
 const parrafo = document.getElementById("warnings")
+const email = document.getElementById("email");
 
 function validacion(){
-   
+    e.preventDefault()    
+    var expReg = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
     let warnings = ""
     parrafo.innerHTML = ""
         
@@ -58,10 +59,11 @@ function validacion(){
         entrar = true
     }
 
-        /*    if(!regexEmail.test(email.value)){
-            warnings += " // El email no es válido // "
-            entrar = true
-        } */
+    if(!expReg.test(email.value)){
+        email.style= "border: red 4px solid"
+        warnings += " // El email no es válido // "
+        entrar = true
+    } 
     if(entrar){
         parrafo.innerHTML = warnings
     }else{
@@ -69,6 +71,9 @@ function validacion(){
     }
     return false;
 }
+
+
+
 
 /*
 form.addEventListener("submit", e=>{

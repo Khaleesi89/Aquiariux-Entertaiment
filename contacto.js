@@ -6,7 +6,9 @@ const email = document.getElementById("email")
 const parrafo = document.getElementById("warnings")
 
 function validacion(){
-   
+     /* 
+    var expReg = /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
+    */
     let warnings = ""
     parrafo.innerHTML = ""
         
@@ -30,11 +32,13 @@ function validacion(){
         warnings += " // Ingrese su número de teléfono // "
         entrar = true
     }
-
-        /*    if(!regexEmail.test(email.value)){
-            warnings += " // El email no es válido // "
-            entrar = true
-        } */
+/*
+    if(!expReg.test(email.value)){
+        email.style= "border: red 4px solid"
+        warnings += " // El email no es válido // "
+        entrar = true
+    } 
+    */
     if(entrar){
         parrafo.innerHTML = warnings
     }else{
