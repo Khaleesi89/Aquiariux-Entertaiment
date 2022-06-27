@@ -1,65 +1,12 @@
 
-.escuelaModelo,
-.escuelaActuacion,
-.estilista,
-.peluqueria,
-.jesmond,
-.asesoriaImagen,
-.psicologa,
-.nutricionista,
-.gym,
-.managers,
-.fotografos{
-    border-color:#C70A80;
-    border-style: solid;
-    border-radius: 15%;
-    border-width: 10px;
-    width: 300px;
-    height: 300px;
-    font-size: 30px;
-    text-align: center;
-    margin: 20px;
-    padding: 10px;
-    float: left;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.2 all;
-    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24),7px 6px 28px 1px rgba(0, 0, 0, 0.24),7px 6px 28px 1px rgba(0, 0, 0, 0.24);
-    
-    background-color: white;
-       
-    
-}
 
-.escuelaModelo:active,
-.escuelaActuacion:active,
-.estilista:active,
-.peluqueria:active,
-.jesmond:active,
-.asesoriaImagen:active,
-.psicologa:active,
-.nutricionista:active,
-.gym:active,
-.managers:active,
-.fotografos:active{
-    transform: scale(0.98);
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
-}
 
 .servicios h3, h5,a{
-    background-color: white;
+   
     text-decoration: none;
     
 }
 
-.ya{
-    margin-top: 25%;
-}
-
-.info{
-    color: black;
-     
-}
 
 .info:hover{
     color: violet;
