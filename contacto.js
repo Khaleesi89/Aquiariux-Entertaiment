@@ -11,19 +11,22 @@ function validacion(){
     parrafo.innerHTML = ""
         
     if(nombre.value.length == 0){
-            
+        nombre.style= "border: red 4px solid"   
         warnings += " // Ingrese su nombre // "
         entrar = true
     }
     if(apellido.value.length == 0){
+        apellido.style= "border: red 4px solid"
         warnings += " // Ingrese su apellido // "
         entrar = true
     }
     if(pais.value.length == 0){
+        pais.style= "border: red 4px solid"
         warnings += " // Ingrese su país // "
         entrar = true
     }
     if(telefono.value.length == 0){
+        telefono.style= "border: red 4px solid"
         warnings += " // Ingrese su número de teléfono // "
         entrar = true
     }

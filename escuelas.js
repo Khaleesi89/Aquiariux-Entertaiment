@@ -18,35 +18,42 @@ function validacion(){
     parrafo.innerHTML = ""
         
     if(nombre.value.length == 0){
-            
+        nombre.style= "border: red 4px solid"            
         warnings += " // Ingrese su nombre // "
         entrar = true
     }
     if(apellido.value.length == 0){
+        apellido.style= "border: red 4px solid"
         warnings += " // Ingrese su apellido // "
         entrar = true
     }
     if(documento.value.length > 9 || documento.value.length < 8 ){
+        documento.style= "border: red 4px solid"
         warnings += " // Ingrese un número de documento válido // "
         entrar = true
     }
     if(direccion.value.length == 0){
+        direccion.style= "border: red 4px solid"
         warnings += " // Ingrese su dirección //"
         entrar = true
     }
     if(ciudad.value.length == 0){
+        ciudad.style= "border: red 4px solid"
         warnings += " // Ingrese lugar de residencia //"
         entrar = true
     }
     if(cp.value.length == 0){
+        cp.style= "border: red 4px solid"
         warnings += " // Ingrese un código postal //"
         entrar = true
     }
     if(pais.value.length == 0){
+        pais.style= "border: red 4px solid"
         warnings += " // Ingrese su país // "
         entrar = true
     }
     if(telefono.value.length == 0){
+        telefono.style= "border: red 4px solid"
         warnings += " // Ingrese su número de teléfono // "
         entrar = true
     }
