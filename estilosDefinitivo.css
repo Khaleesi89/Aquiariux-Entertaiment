@@ -295,3 +295,9 @@ input{
     margin-bottom: 10px;
     line-height: 40px
 }
+
+.but:hover{
+    color: white;
+    animation: flash; 
+    animation-duration: 2s; 
+}
