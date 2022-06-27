@@ -15,6 +15,9 @@
 		rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 		/>
+		<link rel="stylesheet" href="css/normalize.css">
+    	<link rel="stylesheet" href="css/skeleton.css">
+    	<link rel="stylesheet" href="css/custom.css">
     </head>
     
     <body>
@@ -44,178 +47,191 @@
     
                 </ul>
             </nav>
+			<div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
         </header>
  
 <br>
 <br>
-		<h3>Servicios</h3>
-
-		<div class="servicios">
-			<div class="escuelaModelo">
-				<h3 class="ya">Escuela de Modelos</h3>
-				<h5>$12000 / mes</h5>
-				<h5><a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
-
-			</div>
-			<div class="escuelaActuacion">
-				<h3 class="ya">Escuela de Actuación</h3>
-				<h5>$12000 p/mes</h5>
-				<h5><a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
-
-
-			</div>
-			<div class="estilista">
-				<h3 class="ya">Estilista</h3>
-				<h5>a partir de $2500</h5>
-				<h5><a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
-
-
-			</div>
-			<div class="peluqueria">
-				<h3 class="ya">Peluquería</h3>
-				<h5>a partir de $2000</h5>
-				<h5><a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
-
-
-				
-			</div>
-			<div class="jesmond">
-				<h3 class="ya">Jesmond Beauty Clinic</h3>
-				<h5>a partir de $5000 s/tratamiento</h5>
-				<h5><a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
-
-
-				
-			</div>
-			<div class="asesoriaImagen">
-				<h3 class="ya">Asesoría de Imagen</h3>
-				<h5>$3000</h5>
-				<h5><a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
-
-
-				
-			</div>
-			<div class="psicologa">
-				<h3 class="ya">Asesoramiento Psicológico </h3>
-				<h5>$2500 c/sesión</h5>
-				<h5>descuento por combos</h5>
-				<h5><a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
-
-
-				
-			</div>
-			<div class="nutricionista">
-				<h3 class="ya">Nutricionista</h3>
-				<h5>$2000 c/sesión</h5>
-				<h5>descuento por combos</h5>
-				<h5><a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
-
-				
-			</div>
-			<div class="gym">
-				<h3 class="ya">Gimnasio</h3>
-				<h5>$3000 p/mes</h5>
-				<h5><a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
-
-				
-			</div>
-			<div class="managers">
-				<h3 class="ya">Asesoramiento de Manager</h3>
-				<h5>$4000</h5>
-				<h5><a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
-
-				
-			</div>
-			<div class="fotografos">
-				<h3 class="ya">Fotografía</h3>
-				<h5>$4000 p/sesión</h5>
-				<h5><a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
-
-				
-			</div>
-
+<div id="lista-cursos" class="container">
+	<h1 id="encabezado" class="encabezado">Servicios a contratar</h1>
+	<div class="row">
+		<div class="four columns">
+			<div class="card">
+				<img src="img/curso1.jpg" class="imagen-curso u-full-width">
+				<div class="info-card">
+					<h4>Escuela de Modelos</h4>
+					<a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
+					
+					<p class="precio"><span class="u-pull-right ">$12000 p/mes</span></p>
+					<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+				</div>
+			</div> <!--.card-->
+		</div>
+		<div class="four columns">
+				<div class="card">
+					<img src="img/curso2.jpg" class="imagen-curso u-full-width">
+					<div class="info-card">
+						<h4>Escuela de Actuación</h4>
+						<a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
+						
+						<p class="precio"><span class="u-pull-right ">$12000 p/mes</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+					</div>
+				</div>
+		</div>
+		<div class="four columns">
+				<div class="card">
+					<img src="img/curso3.jpg" class="imagen-curso u-full-width">
+					<div class="info-card">
+						<h4>Estilista</h4>
+						<a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
+						
+						<p class="precio">  <span class="u-pull-right ">$5000 p/sesión</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+					</div>
+				</div> <!--.card-->
 		</div>
 
+	</div> <!--.row-->
+	<div class="row">
+		<div class="four columns">
+			<div class="card">
+				<img src="img/curso4.jpg" class="imagen-curso u-full-width">
+				<div class="info-card">
+					<h4>Asesoramiento nutricional</h4>
+					<a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
+					
+					<p class="precio">  <span class="u-pull-right ">$2000 p/sesión</span></p>
+					<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+				</div>
+			</div> <!--.card-->
+		</div>
+		<div class="four columns">
+				<div class="card">
+					<img src="img/curso5.jpg" class="imagen-curso u-full-width">
+					<div class="info-card">
+						<h4>Asesoramiento psicológico</h4>
+						<a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
+						
+						<p class="precio">  <span class="u-pull-right ">$2500 p/sesión</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+					</div>
+				</div> <!--.card-->
+		</div>
+		<div class="four columns">
+				<div class="card">
+					<img src="img/curso1.jpg" class="imagen-curso u-full-width">
+					<div class="info-card">
+						<h4>Asesoría de Imagen</h4>
+						<a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
+						
+						<p class="precio">  <span class="u-pull-right ">$1200 p/sesión</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+					</div>
+				</div> <!--.card-->
+		</div>
+	</div> <!--.row-->
+	<div class="row">
+		<div class="four columns">
+			<div class="card">
+				<img src="img/curso2.jpg" class="imagen-curso u-full-width">
+				<div class="info-card">
+					<h4>Peluquería</h4>
+					<a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
+					
+					<p class="precio">  <span class="u-pull-right ">desde $1900 </span></p>
+					<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+				</div>
+			</div> <!--.card-->
+		</div>
+		<div class="four columns">
+				<div class="card">
+					<img src="img/curso3.jpg" class="imagen-curso u-full-width">
+					<div class="info-card">
+						<h4>Jesmond Beauty Clinic</h4>
+						<a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
+						
+						<p class="precio">  <span class="u-pull-right ">desde $1700</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+					</div>
+				</div> <!--.card-->
+		</div>
+		<div class="four columns">
+				<div class="card">
+					<img src="img/curso4.jpg" class="imagen-curso u-full-width">
+					<div class="info-card">
+						<h4>Asesoramiento de Managers</h4>
+						<a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
+						
+						<p class="precio">  <span class="u-pull-right ">$4000 p/evento</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+					</div>
+				</div> <!--.card-->
+		</div>
+	</div> <!--.row-->
+	<div class="row">
+			<div class="four columns">
+				<div class="card">
+					<img src="img/curso5.jpg" class="imagen-curso u-full-width">
+					<div class="info-card">
+						<h4>Gimnasio</h4>
+						<a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
+						
+						<p class="precio">  <span class="u-pull-right ">$5200 p/mes</span></p>
+						<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+					</div>
+				</div> <!--.card-->
+			</div>
+			<div class="four columns">
+					<div class="card">
+						<img src="img/curso1.jpg" class="imagen-curso u-full-width">
+						<div class="info-card">
+							<h4>Fotografía</h4>
+							<a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
+							
+							<p class="precio">  <span class="u-pull-right ">$4200 p/book</span></p>
+							<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+						</div>
+					</div> <!--.card-->
+			</div>
+			<div class="four columns">
+					<div class="card">
+						<img src="img/curso2.jpg" class="imagen-curso u-full-width">
+						<div class="info-card">
+							<h4>Entrevista personalizada</h4>
+							<a class="info" href="formularioDeContacto.html" target="_blank">Para + info</a></h5>
+						
+							<p class="precio">  <span class="u-pull-right ">a partir de $7000</span></p>
+							<a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+						</div>
+					</div> <!--.card-->
+			</div>
+	</div> <!--.row-->
+</div>  
 
-
-
-
-<!-- CODIGO PARA AGREGAR ITEMS A LOS SERVICIOS
-
-<html>
-<head>
-<script type="text/javascript">
-function cell(){
-	var tabla=document.getElementById('myTable');
-	var x=tabla.rows;
-	var row;
-	alert("Cantidad de Rows (filas)= "+x.length+"\n"+tabla.innerHTML);
-	for (i=0;i<x.length;i++){
-		row=x[i].cells;
-		alert("Cantidad de Celdas de la fila "+i+"= "+row.length+"\n"+x[i].innerHTML);
-  		for(j=0;j<row.length;j++){
-  			row[j].style.backgroundColor="#888888";
-  			alert("Contenido de la Celda "+j+" de la fila "+i+"\n"+row[j].innerHTML);
-  			row[j].style.backgroundColor="";
-  		}
-	}
-}
-function iniciarTabla(){
-	var datosIniciales = new Array();
-	datosIniciales[0]=["Juan Perez","44845889"];
-	datosIniciales[1]=["Tito Lecture","58468512"];
-	var myTable=document.getElementById('myTable');
-	for(i in datosIniciales){
-		insertarRow(datosIniciales[i][0],datosIniciales[i][1]);
-	}
-
-}
-function insertarRow(Nombre,Telefono){
-		var myTable=document.getElementById("myTable");
-		var row=myTable.insertRow(myTable.rows.length);
-		var cel0=row.insertCell(0);
-		var cel1=row.insertCell(1);
-		var cel2=row.insertCell(2);
-		cel0.innerHTML=Nombre;
-		cel1.innerHTML=Telefono;
-		cel2.innerHTML="<a href='#' onclick='borrarRow(this.parentNode.parentNode.rowIndex)'>borrar</a>";
-}
-function borrarRow(Numero){
-		var myTable=document.getElementById("myTable");
-		myTable.deleteRow(Numero);
-}
-
-</script>
-</head>
-<body onload="iniciarTabla()">
-
-<table id="myTable" border="1">
-<thead>
-	<tr>
-		<th id="celda">Nombre</th>
-		<th>Telefono</th>
-		<th>Operacion</th>
-	</tr>
-</thead>
-<tbody>
-</tbody>
-</table>
-<br />
-<input type="button" onclick="cell()"
-	value="Listar contenido de la Tabla">
-<form action="#">
-nombre <input type="text" id="nombre"><br/>
-telefono <input type="text" id="telefono"><br/>
-<input value="insertar Fila" type="button" onclick="insertarRow(document.getElementById('nombre').value,document.getElementById('telefono').value);">
-</form>
-</body>
-</html>
-
-
-
-
-
--->
 
 </body>
 
