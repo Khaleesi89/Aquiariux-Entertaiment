@@ -9,10 +9,12 @@ formu.addEventListener("submit", e=>{
     let warnings = ""
     parrafo.innerHTML = ""
     if(usuario.value.length == 0){
+        usuario.style= "border: red 3px solid"
         warnings += "Ingrese su usuario <br>"
         entrar = true
     }
     if(password.value.length < 8 || password.value.length > 8){
+        password.style= "border: red 3px solid"
         warnings += "Password Inválido <br>"
         entrar = true
     }
