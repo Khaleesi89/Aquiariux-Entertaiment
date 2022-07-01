@@ -129,5 +129,3 @@ function vaciarCarrito(){
     };
     articulosCarrito = [];
 };
-
-
